@@ -14,25 +14,20 @@ jobs:
     timeout-minutes: 10
 
     steps:
-      - name: Generate Snake SVG
-        uses: Platane/snk/svg-only@v3
-        with:
-          github_user_name: ariktheone
-          outputs: |
-            dist/github-contribution-grid-snake.svg
-            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
-
       - name: Checkout main branch
         uses: actions/checkout@v4
         with:
           ref: main
 
-      - name: Move SVGs to repo root (optional)
-        run: |
-          mkdir -p dist
-          cp dist/* ./
+      - name: Generate Snake SVG
+        uses: Platane/snk/svg-only@v3
+        with:
+          github_user_name: ariktheone
+          outputs: |
+            github-contribution-grid-snake.svg
+            github-contribution-grid-snake-dark.svg?palette=github-dark
 
-      - name: Commit & Push SVGs to main branch
+      - name: Commit & Push to main branch
         uses: EndBug/add-and-commit@v9
         with:
           message: "🌀 Update contribution snake animation"
