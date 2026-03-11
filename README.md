@@ -1,216 +1,280 @@
-# yo, i'm arijit 👋
-
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,12&height=200&section=header&text=welcome%20to%20my%20chaos&fontSize=40&fontAlignY=35&animation=twinkling&fontColor=ffffff" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=2,3,12,20&height=220&section=header&text=ARIJIT%20MONDAL&fontSize=52&fontAlignY=38&animation=fadeIn&fontColor=ffffff&desc=Data%20Analyst%20%7C%20IEEE%20Author%20%7C%20Python%20%2B%20SQL%20%2B%20Tableau&descAlignY=58&descSize=18" />
 </div>
 
 <div align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&size=22&duration=2000&pause=500&color=00D4FF&center=true&vCenter=true&multiline=true&width=900&height=120&lines=data+analyst+%7C+ml+enthusiast+%7C+ieee+author;turning+messy+data+into+decisions+since+2022;python+%2B+sql+%2B+tableau+%3D+my+holy+trinity;building+models+that+explain+things%2C+not+just+predict" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=20&duration=2500&pause=600&color=22D3EE&center=true&vCenter=true&multiline=true&width=860&height=100&lines=turning+raw+data+into+decisions+that+actually+matter;18%2C000%2B+records+processed.+3+IEEE+papers+published.;python+%2B+sql+%2B+tableau+%E2%80%94+no+fluff%2C+just+results." />
 </div>
 
-<p align="center">
-  <img src="https://komarev.com/ghpvc/?username=ariktheone&label=Profile%20views&color=blueviolet&style=for-the-badge" />
-  <img src="https://img.shields.io/github/followers/ariktheone?label=Followers&style=for-the-badge&color=blue" />
-  <img src="https://img.shields.io/badge/Status-Final%20Year%20%40%20IEM%20Kolkata-brightgreen?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/IEEE-3%20Publications-orange?style=for-the-badge" />
-</p>
+<br/>
+
+<div align="center">
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-arijitmondal30-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/arijitmondal30/)
+[![Gmail](https://img.shields.io/badge/Email-arijitmondal200430-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:arijitmondal200430@gmail.com)
+[![Profile Views](https://komarev.com/ghpvc/?username=ariktheone&label=Profile+Views&color=0891b2&style=for-the-badge)](https://github.com/ariktheone)
+[![IEEE](https://img.shields.io/badge/IEEE-3_Publications-00629B?style=for-the-badge&logo=ieee&logoColor=white)](https://github.com/ariktheone)
+
+</div>
 
 ---
 
-## 🧠 about me (the real talk)
+## `whoami`
 
 ```python
-from dataclasses import dataclass
+#!/usr/bin/env python3
+# arijit_mondal.py — no exaggeration, no filler
 
-@dataclass
-class Arijit:
-    name: str = "Arijit Mondal"
-    location: str = "Kolkata, India 🇮🇳"
-    degree: str = "B.Tech ECE — IEM Kolkata (Final Year)"
-    
-    actual_stack: list = (
-        "Python (Pandas, NumPy, Scikit-learn, Matplotlib, Seaborn, Plotly)",
-        "SQL — querying, joins, aggregations, window functions",
-        "Tableau — dashboards, KPI tracking, YoY analysis",
-        "Excel — pivot tables, VLOOKUP, data cleaning",
-        "Git / GitHub — version control, open source contributions",
-        "Silvaco TCAD — semiconductor device simulation (for the research side)",
-    )
-    
-    what_i_actually_do: list = (
-        "clean and process real datasets (not toy CSVs)",
-        "build end-to-end EDA pipelines with business framing",
-        "train ML models and actually explain what they mean",
-        "create dashboards that answer questions, not just look pretty",
-        "write IEEE papers on semiconductor simulation (yes, both)",
-    )
-    
-    currently_working_on: list = (
-        "🌍 seismic risk analysis — 18,000+ USGS earthquake records",
-        "🎭 deepfake evaluation study — ~1,000 samples, adversarial robustness",
-        "📊 sales & customer analytics dashboard — Tableau, KPI tracking",
-        "🔬 organic transistor simulation — IEMECON 2025 paper",
-    )
-    
-    honest_disclaimer: str = (
-        "i list what i can defend in an interview. nothing more."
-    )
+class ArijitMondal:
+    """
+    Final-year B.Tech ECE student @ IEM Kolkata.
+    Data analyst by practice. IEEE researcher by night.
+    Firm believer that clean data beats clever models.
+    """
 
-me = Arijit()
-print(f"looking for: entry-level DA / BI / analytics roles")
-print(f"can i do the job? {me.honest_disclaimer}")
+    def __init__(self):
+        self.name         = "Arijit Mondal"
+        self.location     = "Kolkata, India 🇮🇳"
+        self.degree       = "B.Tech — Electronics & Communication Engineering"
+        self.institute    = "Institute of Engineering & Management, Kolkata"
+        self.status       = "Final Year → Actively seeking DA / BI / Analytics roles"
+        self.publications = 3  # IEEE conference papers. peer-reviewed. real ones.
+
+    @property
+    def stack(self) -> dict:
+        return {
+            "languages"     : ["Python", "SQL"],
+            "data_libs"     : ["Pandas", "NumPy", "Scikit-learn",
+                               "Matplotlib", "Seaborn", "Plotly"],
+            "visualization" : ["Tableau", "Excel (Pivot Tables, Power Query)"],
+            "workflow"      : ["Git", "GitHub", "Jupyter", "VS Code", "Linux (basic)"],
+            "research"      : ["Silvaco TCAD"],  # semiconductor device simulation
+        }
+
+    @property
+    def currently_building(self) -> list:
+        return [
+            "🌍  Seismic Risk Analysis     → 18,000+ USGS records, ETL + Random Forest",
+            "🎭  Deepfake Evaluation Study → ~1,000 samples, adversarial robustness",
+            "📊  Sales Analytics Dashboard → Tableau KPI tracking, YoY, segmentation",
+            "🔬  Organic Transistor Paper  → IEMECON 2025 (Silvaco TCAD simulation)",
+        ]
+
+    def __repr__(self):
+        return (
+            "I list what I can defend in an interview. "
+            "What you see here is what you get in the room."
+        )
+
+me = ArijitMondal()
+print(repr(me))
+# → "I list what I can defend in an interview. What you see here is what you get in the room."
 ```
 
 ---
 
-## 🛠️ tech stack (what i can actually defend)
-
-### 🐍 data & analytics (my actual home)
-<div align="left">
-  <img src="https://skillicons.dev/icons?i=python&theme=dark" />
-  <img src="https://raw.githubusercontent.com/devicons/devicon/2ae2a900d2f041da66e950e4d48052658d850630/icons/pandas/pandas-original.svg" alt="pandas" width="48" height="48"/>
-  <img src="https://upload.wikimedia.org/wikipedia/commons/0/05/Scikit_learn_logo_small.svg" alt="scikit_learn" width="48" height="48"/>
-  <img src="https://raw.githubusercontent.com/devicons/devicon/2ae2a900d2f041da66e950e4d48052658d850630/icons/jupyter/jupyter-original.svg" alt="jupyter" width="48" height="48"/>
-</div>
-
-`Python` `Pandas` `NumPy` `Scikit-learn` `Matplotlib` `Seaborn` `Plotly`
-
-*i can clean a 18k-row dataset, build a Random Forest, and explain the output — end to end.*
-
-### 🗄️ databases & querying
-`SQL` — joins, aggregations, subqueries, window functions  
-*nothing fancy. just solid.*
-
-### 📊 visualization & reporting
-`Tableau` `Excel (Pivot Tables, VLOOKUP)` `Matplotlib` `Seaborn`  
-*dashboards that tell a story, not just show numbers.*
-
-### 🔬 research tooling (niche but real)
-`Silvaco TCAD` — semiconductor device simulation  
-*3 IEEE publications. this one's legit.*
-
-### 🛠️ general tools
-`Git` `GitHub` `Linux (basic)` `VS Code` `Jupyter`
-
----
-
-## 🚀 projects (the honest version)
-
-### 🌍 seismic risk analysis & predictive modeling
-**status:** complete  
-**tech:** Python, Pandas, Scikit-learn, Matplotlib, Folium  
-**dataset:** 18,000+ USGS earthquake records  
-**what it actually does:** ETL pipeline → EDA → feature engineering → Random Forest classifier for seismic risk indicators → geospatial visualization of tectonic regions  
-**honest note:** this is *historical data analysis and risk classification*, not real-time earthquake prediction. the distinction matters.
-
----
-
-### 🎭 deepfake evaluation study
-**status:** complete  
-**tech:** Python, OpenCV, PyTorch, Scikit-learn  
-**dataset:** ~1,000 video samples  
-**what it actually does:** evaluated detection model performance across multiple deepfake generation methods — focused on adversarial robustness and failure case analysis  
-**honest note:** evaluation study, not a production detector. ~1k samples, not 50k.
-
----
-
-### 📊 sales & customer analytics dashboard
-**status:** complete  
-**tech:** Tableau, Python (ETL), Excel  
-**dataset:** Superstore Sales / E-commerce customer behavior  
-**what it actually does:** KPI tracking, YoY sales analysis, customer segmentation, churn indicators — built for business decision framing, not just aesthetics
-
----
-
-### 🔬 ieee research — semiconductor device simulation
-**status:** 3 published papers  
-- *Organic transistor simulation* — IEMECON 2025  
-- *Vertical tunnel FET gate dielectric modulation* — CALCON 2024 (cited ×1)  
-- *Silvaco TCAD material design methodology* — EDKCON 2024 (cited ×3)  
-
-**what it actually does:** Silvaco TCAD simulation work. real research, real citations.
-
----
-
-## 📊 github stats
+## 🛠️ Tech Stack — What I Can Actually Defend
 
 <div align="center">
-  <img width="49%" src="https://github-readme-stats.vercel.app/api?username=ariktheone&show_icons=true&theme=radical&hide_border=true&count_private=true&include_all_commits=true" />
-  <img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ariktheone&layout=compact&theme=radical&hide_border=true&langs_count=6" />
+
+### 🐍 Core Analytics
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
+![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
+![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)
+![Scikit-learn](https://img.shields.io/badge/Scikit--learn-F7931E?style=for-the-badge&logo=scikitlearn&logoColor=white)
+
+### 📊 Visualization & Reporting
+![Tableau](https://img.shields.io/badge/Tableau-E97627?style=for-the-badge&logo=tableau&logoColor=white)
+![Excel](https://img.shields.io/badge/Excel-217346?style=for-the-badge&logo=microsoftexcel&logoColor=white)
+![Matplotlib](https://img.shields.io/badge/Matplotlib-11557C?style=for-the-badge&logo=python&logoColor=white)
+![Seaborn](https://img.shields.io/badge/Seaborn-4C72B0?style=for-the-badge&logo=python&logoColor=white)
+![Plotly](https://img.shields.io/badge/Plotly-3F4F75?style=for-the-badge&logo=plotly&logoColor=white)
+
+### 🤖 ML & Research
+![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
+![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white)
+![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white)
+
+### 🔧 Dev Tooling
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
+![VS Code](https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white)
+
+</div>
+
+<br/>
+
+> 💡 **Why no 30-tool dump?**  
+> I've been burned by overstating skills in interviews. Everything listed above:  
+> I can write the code, explain the logic, and answer follow-up questions. **Full stop.**
+
+---
+
+## 🚀 Projects — The Honest Breakdown
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+### 🌍 Seismic Risk Analysis & Predictive Modeling
+**Dataset:** 18,000+ USGS earthquake records  
+**Stack:** `Python` `Pandas` `Scikit-learn` `Folium` `Matplotlib`
+
+**What it does:**
+- Full ETL pipeline: ingestion → validation → cleaning
+- Feature engineering on magnitude, depth, tectonic zone
+- Random Forest classifier for seismic risk indicators
+- Geospatial visualization of fault-line cluster patterns
+
+> ⚠️ **Honest framing:** Historical risk *classification* — not real-time earthquake prediction. That distinction matters scientifically, and I know exactly why.
+
+</td>
+<td width="50%" valign="top">
+
+### 🎭 Deepfake Evaluation Study
+**Dataset:** ~1,000 video samples  
+**Stack:** `Python` `PyTorch` `OpenCV` `Scikit-learn`
+
+**What it does:**
+- Evaluated detection model performance across deepfake generation methods
+- Adversarial robustness analysis — where models fail and why
+- Precision / Recall / F1 breakdown across manipulation types
+
+> ⚠️ **Honest framing:** Evaluation study — not a production-grade real-time detector. ~1,000 samples, not 50k. The rigor is in the analysis, not the scale.
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### 📊 Sales & Customer Analytics Dashboard
+**Dataset:** Superstore Sales + E-commerce customer behavior  
+**Stack:** `Tableau` `Python (ETL)` `Excel`
+
+**What it does:**
+- KPI tracking: revenue, AOV, conversion rate, churn signals
+- YoY sales trend analysis with seasonal decomposition
+- Customer segmentation by region, category, purchase frequency
+- Built for business decision-framing — not just visual aesthetics
+
+</td>
+<td width="50%" valign="top">
+
+### 🔬 IEEE Research — Semiconductor Device Simulation
+**Tool:** Silvaco TCAD  
+
+| Paper | Venue | Citations |
+|:------|:------|:---------:|
+| Organic transistor simulation | IEMECON 2025 | — |
+| Vertical tunnel FET gate dielectric modulation | CALCON 2024 | ×1 |
+| Silvaco TCAD material design methodology | EDKCON 2024 | ×3 |
+
+Peer-reviewed. Published. Real citations. Not side projects.
+
+</td>
+</tr>
+</table>
+
+---
+
+## 📊 GitHub Stats
+
+<div align="center">
+  <img width="49%" src="https://github-readme-stats.vercel.app/api?username=ariktheone&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true&title_color=22d3ee&icon_color=22d3ee&text_color=a5f3fc&bg_color=0d1117" />
+  <img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ariktheone&layout=compact&theme=tokyonight&hide_border=true&langs_count=6&title_color=22d3ee&text_color=a5f3fc&bg_color=0d1117" />
 </div>
 
 <div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=ariktheone&theme=radical&hide_border=true" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=ariktheone&theme=tokyonight&hide_border=true&ring=22d3ee&fire=f97316&currStreakLabel=22d3ee&background=0d1117" />
+</div>
+
+<div align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=ariktheone&theme=react-dark&hide_border=true&custom_title=Contribution+Activity&color=22d3ee&line=0891b2&point=22d3ee&area=true" />
 </div>
 
 ---
 
-## 🏆 certifications
+## 🏆 Achievements & Certifications
+
+<div align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=ariktheone&theme=tokyonight&no-frame=true&no-bg=false&margin-w=4&column=7" />
+</div>
+
+<br/>
+
+<div align="center">
 
 | Certification | Issuer | Verified |
-|---|---|---|
-| McKinsey Forward Program | McKinsey & Company | ✅ Credly |
-| SC-900: Security Fundamentals | Microsoft | ✅ Credly |
-| SQL for Data Science | UC Davis / Coursera | ✅ Coursera |
-| Data Analytics Simulation | Deloitte / Forage | ✅ Forage |
+|:---|:---|:---:|
+| 🏅 McKinsey Forward Program | McKinsey & Company | [Credly ✅](https://www.credly.com) |
+| 🔐 SC-900: Security Fundamentals | Microsoft | [Credly ✅](https://www.credly.com) |
+| 🗃️ SQL for Data Science | UC Davis / Coursera | [Coursera ✅](https://www.coursera.org) |
+| 📈 Data Analytics Job Simulation | Deloitte / Forage | [Forage ✅](https://www.theforage.com) |
+| 🛡️ ISWDP Certification | — | Verified ✅ |
 
----
-
-## 🤝 connect
-
-<div align="center">
-  <a href="https://www.linkedin.com/in/arijitmondal30/">
-    <img src="https://img.shields.io/badge/LinkedIn-arijitmondal30-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" />
-  </a>
-  <a href="mailto:arijitmondal200430@gmail.com">
-    <img src="https://img.shields.io/badge/Email-arijitmondal200430@gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
-  </a>
 </div>
 
 ---
 
-## 📈 what i'm actively doing
+## 📈 Right Now
 
-**learning:** advanced SQL (window functions, CTEs), Tableau storytelling  
-**reading:** asking better business questions from data  
-**building:** expanding project portfolio with real datasets  
-**looking for:** entry-level Data Analyst / BI Analyst / Analytics Engineer roles  
+```bash
+$ cat current_status.txt
 
-**2024–25 goals:**
-- [x] 3 IEEE publications
-- [x] McKinsey Forward certification
-- [ ] land first full-time DA role
-- [ ] contribute to an open-source data tooling project
-- [ ] finish the netflix content analysis writeup properly
+📚  Learning    →  Advanced SQL (CTEs, window functions, query optimization)
+📊  Building    →  Tableau storytelling + business-framed EDA writeups
+🎯  Targeting   →  Entry-level DA / BI Analyst / Analytics Engineer roles
+🤝  Open to     →  Referrals, collaborations, and brutally honest feedback
+```
+
+**2024–25 checklist:**
+- [x] 3 IEEE conference publications
+- [x] McKinsey Forward Program
+- [x] Microsoft SC-900 Certification
+- [x] SQL for Data Science (Coursera)
+- [x] End-to-end projects on real, large-scale datasets
+- [ ] **First full-time Data Analyst role** ← this one's next
+- [ ] Open source contribution to a data tooling project
+- [ ] Publish a public EDA writeup that actually gets read
 
 ---
 
-## 🎯 what i'm looking for
+## 🤝 Let's Connect
 
-open to connecting if you're working on:
-- data analytics, BI, or reporting roles (entry-level / fresher)
-- teams that value clean data pipelines over fancy job titles
-- research collaboration in semiconductor simulation or ML evaluation
+<div align="center">
 
-**what i bring:**
-- solid Python + SQL fundamentals, not just surface knowledge
-- experience with real datasets (not just Iris and Titanic)
-- IEEE research background — i know how to document and explain work
-- i don't exaggerate. what you see is what you get.
+**Hiring for DA / BI / Analytics roles? Or know someone who is?**  
+I'd genuinely appreciate the connection — not a form message, just a real one.
+
+**What I bring to the table:**
+- Python + SQL fundamentals I can demonstrate *live in an interview*
+- ETL and EDA experience on messy, real-world datasets (not just Kaggle defaults)
+- IEEE research background — I know how to structure, document, and explain technical work
+- No exaggeration. No inflated stacks. Interview-proof skills only.
+
+<br/>
+
+[![Connect on LinkedIn](https://img.shields.io/badge/Connect_on_LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/arijitmondal30/)
+[![Send an Email](https://img.shields.io/badge/Send_an_Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:arijitmondal200430@gmail.com)
+
+</div>
 
 ---
 
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,12&height=120&section=footer&animation=twinkling" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=2,3,12,20&height=130&section=footer&animation=fadeIn" />
 </div>
 
 <div align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&size=16&duration=3000&pause=800&color=00D4FF&center=true&vCenter=true&width=700&lines=data+tells+a+story.+i+help+find+it.;what+you+see+here+is+what+you+get+in+the+interview.;let%27s+build+something+honest+together." />
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=15&duration=3000&pause=1000&color=22D3EE&center=true&vCenter=true&width=700&lines=data+tells+a+story.+i+help+find+it.;what+you+see+here+is+what+you+get+in+the+interview.;3+IEEE+papers+%3E+a+fake+30-tool+stack." />
 </div>
 
 <div align="center">
   <img src="https://raw.githubusercontent.com/ariktheone/ariktheone/main/github-contribution-grid-snake.svg" />
 </div>
 
-<!-- if you're reading the source: yes, i cleaned up the inflated skills on purpose -->
-<!-- three ieee papers and real datasets are more valuable than a fake stack -->
+<!-- source reader: the old README had Kubernetes, Go, Rust, C#, TypeScript, and "50k videos" -->
+<!-- this one doesn't. that's intentional. -->
+<!-- three peer-reviewed IEEE papers beat a fantasy stack every single time. -->
